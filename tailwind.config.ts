@@ -13,13 +13,18 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
+        marqueeLeft: {
+          from : { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(-100%)' },
         },
+        marqueeRight: {
+          from : {transform: 'translateX(-100%)'},
+          to: {transform: 'translateX(100%)'}
+        }
       },
       animation: {
-        marquee: 'marquee 10s linear infinite',
+        marqueeLeft: 'marqueeLeft 20s linear infinite',
+        marqueeRight: 'marqueeRight 20s linear infinite',
       },
     },
   },
