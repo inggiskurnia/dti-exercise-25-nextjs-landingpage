@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./NeueMontreal-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./NeueMontreal-Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./NeueMontreal-Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}
