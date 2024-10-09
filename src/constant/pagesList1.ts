@@ -4,7 +4,7 @@ import webPage3 from '@/assets/web-page-3.svg';
 import webPage4 from '@/assets/web-page-4.svg';
 
 interface Page {
-    path: any;
+    path: string;
 }
 
 const PagesList1: Page[] = [

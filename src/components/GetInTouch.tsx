@@ -14,7 +14,7 @@ const GetInTouch:FC = () => {
                     <div>
                         <Image src={profile} alt='profile-pic'/>
                     </div>
-                    <h1 className='text-[60px] ml-[12px]'>let's build it together</h1>
+                    <h1 className='text-[60px] ml-[12px]'>let&aposs build it together</h1>
                 </div>
             </div>
         </div>
