@@ -14,6 +14,7 @@ const config: Config = {
       },
       keyframes: {
         marqueeLeft: {
+          from: { transform: 'translateX(100%)'},
           to: { transform: 'translateX(-100%)' },
         },
         marqueeRight: {
@@ -22,7 +23,7 @@ const config: Config = {
         }
       },
       animation: {
-        marqueeLeft: 'marqueeLeft 5s linear infinite forwards',
+        marqueeLeft: 'marqueeLeft 20s linear infinite',
         marqueeRight: 'marqueeRight 20s linear infinite',
       },
     },
