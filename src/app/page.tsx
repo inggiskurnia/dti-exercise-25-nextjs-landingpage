@@ -14,15 +14,6 @@ export default function Home() {
       <CarouselPage></CarouselPage>
       <Testimonials></Testimonials>
       <GetInTouch></GetInTouch>
-
-      <div className="w-full relative h-40">
-        <div className="text-[100px] absolute left-full animate-marqueeLeft flex">
-          <span>Text 1</span>
-          <span>Text 2</span>
-          <span>Text 3</span>
-          <span>Text 4</span>
-        </div>
-      </div>
     </>
   );
 }
